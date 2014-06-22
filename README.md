@@ -1,7 +1,7 @@
 How it works
 ======
 
-run_analysis.R attempts to create a tidy data set of mean and standard deviation values from the
+[run_analysis.R](https://github.com/TomGiordano/getdata-proj1/blob/master/run_analysis.R) attempts to create a tidy data set of mean and standard deviation values from the
 UCI Human Activity Recognition Using Smartphones study data available at 
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.
 
@@ -23,4 +23,4 @@ deviation, subject and activity type.
 
 This filtered dataset is then summarised using melt and cast to include the mean of each variable for 
 each activity and each subject. The resulting tidy data set is then written to a file 
-(UCI_HAR_mean_stddev_tidy.txt).
+([UCI_HAR_mean_stddev_tidy.txt](https://github.com/TomGiordano/getdata-proj1/blob/master/UCI_HAR_mean_stddev_tidy.txt)).
